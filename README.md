@@ -41,38 +41,3 @@ flutter run
 
 ``` 
 
-+----------------+
-|    UI Layer    |  <-- UploadScreen / Widgets
-| (Grid of photos|
-|  + buttons)    |
-+-------+--------+
-        |
-        v
-+----------------+
-|   Cubit Layer  |  <-- UploadCubit
-| (state mgmt,   |
-|  orchestrates  |
-|  uploading)    |
-+-------+--------+
-        |
-        v
-+----------------+
-|  UseCase Layer |  <-- UploadPhotoUseCase
-| (business      |
-|  logic: upload |
-|  single photo) |
-+-------+--------+
-        |
-        v
-+----------------+
-| Repository     |  <-- UploadRepository
-| (abstracts data|
-|  source)       |
-+-------+--------+
-        |
-        v
-+----------------+
-| Service Layer  |  <-- UploadService
-| (API / file    |
-|  upload)       |
-+----------------+
