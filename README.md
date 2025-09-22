@@ -25,7 +25,7 @@ Built with **Flutter** and **BLoC (Cubit)** for state management.
 ```bash
 git clone https://github.com/glabglob/rockwolf_test.git
 
-cd rockwolf_test
+cd rockwolf_test-main
 
 ``` 
 
